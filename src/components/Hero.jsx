@@ -37,7 +37,7 @@ function Hero() {
               At SKF NUBEYIL, our purpose is simple, yet profound: we fight
               friction to move the world forward.
             </p>
-            <Link to="contact">
+            <Link to="product">
               <button className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-[#000030] rounded-lg bg-white hover:bg-[#000033] hover:text-white hover:shadow-lg transition duration-300 ease-in-out focus:ring-4 focus:ring-primary-300">
                 Our Products
                 <svg
