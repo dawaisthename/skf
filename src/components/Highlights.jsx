@@ -73,7 +73,7 @@ const Highlights = () => {
           {/* Left Button */}
           <button
             onClick={prevSlide}
-            className="absolute left-0 z-20 bg-white/20 hover:bg-[#9CDA0C] text-white p-3 rounded-full shadow-lg transition"
+            className="absolute left-0 z-20 bg-white/20 hover:bg-white text-white p-3 rounded-full shadow-lg transition"
           >
             ◀
           </button>
@@ -85,7 +85,7 @@ const Highlights = () => {
               alt={industries[current].title}
               className="w-full h-[450px] object-cover bg-center  rounded-2xl shadow-lg transition-transform duration-700"
             />
-            <h3 className="mt-6 text-2xl font-semibold text-[#9CDA0C]">
+            <h3 className="mt-6 text-2xl font-semibold text-white">
               {industries[current].title}
             </h3>
             <p className="mt-2 text-gray-300">{industries[current].desc}</p>
@@ -94,7 +94,7 @@ const Highlights = () => {
           {/* Right Button */}
           <button
             onClick={nextSlide}
-            className="absolute right-0 z-20 bg-white/20 hover:bg-[#9CDA0C] text-white p-3 rounded-full shadow-lg transition"
+            className="absolute right-0 z-20 bg-white/20 hover:bg-white text-white p-3 rounded-full shadow-lg transition"
           >
             ▶
           </button>

@@ -35,7 +35,7 @@ const WhatWeDo = () => {
               alt="Products"
               className="h-45 w-full mx-auto mb-6 group-hover:scale-110 transition-transform duration-500"
             />
-            <h3 className="text-xl font-semibold text-[#9CDA0C] group-hover:text-white mb-2">
+            <h3 className="text-xl font-semibold text-white group-hover:text-white mb-2">
               Products
             </h3>
             <p className="text-gray-200 group-hover:text-white transition-colors duration-300">
@@ -52,7 +52,7 @@ const WhatWeDo = () => {
               alt="Services"
               className="h-45 w-full mx-auto mb-6 group-hover:scale-110 transition-transform duration-500"
             />
-            <h3 className="text-xl font-semibold text-[#9CDA0C] group-hover:text-white mb-2">
+            <h3 className="text-xl font-semibold text-white group-hover:text-white mb-2">
               Services
             </h3>
             <p className="text-gray-200 group-hover:text-white transition-colors duration-300">
@@ -68,7 +68,7 @@ const WhatWeDo = () => {
               alt="Industry Focus"
               className="h-45 w-full object-cover mx-auto mb-6 group-hover:scale-110 transition-transform duration-500"
             />
-            <h3 className="text-xl font-semibold text-[#9CDA0C] group-hover:text-white mb-2">
+            <h3 className="text-xl font-semibold text-white group-hover:text-white mb-2">
               Industry Focus
             </h3>
             <p className="text-gray-200 group-hover:text-white transition-colors duration-300">
