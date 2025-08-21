@@ -39,9 +39,9 @@ const WhatWeDo = () => {
               Products
             </h3>
             <p className="text-gray-200 group-hover:text-white transition-colors duration-300">
-              we offer a wide range of products including rolling
-              bearings,seals,lubrication systems,mechatronics, and condition
-              monitoring solutions.
+              we offer a wide range of products including roller
+              bearing,Deep-Groove Ball Bearings, Thrust ball Bearings,Angular
+              contact Bearings,Spherical roller Bearings and more
             </p>
           </div>
 
