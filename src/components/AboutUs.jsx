@@ -1,7 +1,7 @@
 import React from "react";
-import workers from "../assets/images/Artboard 9.jpg";
+import art from "../assets/images/Artboard 9.jpg";
 import { Link } from "react-router-dom";
-import workers3 from "../assets/images/Artboard 10.jpg";
+import art3 from "../assets/images/Artboard 1.jpg";
 import bg from "../assets/images/automate.jpg";
 
 function AboutUs() {
@@ -20,14 +20,14 @@ function AboutUs() {
           <div className="relative w-full h-full flex justify-center">
             {/* Big main image */}
             <img
-              src={workers}
+              src={art}
               alt="Main image"
               className="w-3/4 rounded-xl shadow-lg object-cover"
             />
 
             {/* Smaller overlapping image */}
             <img
-              src={workers3}
+              src={art3}
               alt="Overlay image"
               className="absolute bottom-[-30px] right-10 w-1/3 rounded-xl shadow-xl border-4 border-white"
             />
@@ -57,7 +57,7 @@ function AboutUs() {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
             <img
-              src={workers3}
+              src={art3}
               alt="Our Mission Image"
               className="w-full h-auto rounded-lg shadow-lg object-cover"
             />

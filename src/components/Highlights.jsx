@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import auto from "../assets/images/Artboard 7.jpg";
-import mining from "../assets/images/Artboard 3.jpg";
-import agriculture from "../assets/images/Artboard 10.jpg";
+import auto from "../assets/images/Artboard 8.jpg";
+import mining from "../assets/images/Artboard 6.jpg";
+import agriculture from "../assets/images/Artboard 4.jpg";
 import bg2 from "../assets/images/gear.jpg";
 
 const industries = [
@@ -83,7 +83,7 @@ const Highlights = () => {
             <img
               src={industries[current].img}
               alt={industries[current].title}
-              className="w-full h-[350px] object-cover rounded-2xl shadow-lg transition-transform duration-700"
+              className="w-full h-[450px] object-cover bg-center  rounded-2xl shadow-lg transition-transform duration-700"
             />
             <h3 className="mt-6 text-2xl font-semibold text-[#9CDA0C]">
               {industries[current].title}
