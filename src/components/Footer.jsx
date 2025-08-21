@@ -73,7 +73,7 @@ const Footer = () => {
             Copyright © 2025 SKF nubeyil Ltd. <br />
             All rights reserved
           </p>
-          <div className="flex space-x-4">
+          {/* <div className="flex space-x-4">
             <a
               href="https://www.facebook.com/"
               className="p-2 bg-[#000033] text-white rounded-full hover:bg-white hover:text-[#9CDA0C] transition-all duration-500 ease-in-out"
@@ -96,7 +96,7 @@ const Footer = () => {
             >
               <FaLinkedin />
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* Company Links */}
@@ -127,14 +127,14 @@ const Footer = () => {
         </div>
 
         {/* Newsletter */}
-        <div>
+        {/* <div>
           <h4 className="font-bold text-[#000033] mb-4">Stay up to date</h4>
-          {/* <form className="flex space-x-2" onSubmit={handleSubmit}> */}
+          <form className="flex space-x-2" onSubmit={handleSubmit}>
           <form className="flex space-x-2">
             <input
               type="email"
               name="from_email"
-              // onChange={handleEmailChange}
+              onChange={handleEmailChange}
               placeholder="Your email address"
               className="flex-1 p-2 rounded-md border-2 border-[#000033] focus:outline-none focus:ring-2 focus:ring-[#9CDA0C]"
             />
@@ -146,7 +146,7 @@ const Footer = () => {
             </button>
           </form>
           {status && <div className="mt-2 text-sm text-gray-800">{status}</div>}
-        </div>
+        </div> */}
       </div>
     </footer>
   );
