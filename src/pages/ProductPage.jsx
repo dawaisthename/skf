@@ -1,10 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
-// import blog from "../assets/images/blog.jpg"; // Image is not used in the code.
-import diary from "../assets/images/diary.jpg";
-import fetting from "../assets/images/fetting.jpg";
-import poultry from "../assets/images/poultry.jpg";
+
 import Footer from "../components/Footer";
 
 function ProductPage() {

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import white_logo from "../assets/images/Logo-SKF_white.png";
+import white_logo from "../assets/images/CompanyLogoWhite.png";
 import heroBg from "../assets/images/Artboard 5.jpg";
 import heroBg2 from "../assets/images/Artboard 4.jpg";
 function Hero() {
@@ -27,10 +27,10 @@ function Hero() {
             </h1> */}
             <img
               src={white_logo}
-              className="w-full max-w-xs h-auto object-cover"
+              className="w-full max-w-sm mb-5 h-auto object-cover"
               alt="Hero Illustration"
             />
-            <h3 className="max-w-2xl mb-6 font-bold text-white lg:mb-8 md:text-lg lg:text-2xl">
+            <h3 className="max-w-2xl font-bold text-white lg:mb-5 md:text-lg lg:text-2xl">
               Built for power and durability
             </h3>
             <p className="max-w-2xl mb-6 text-gray-300 lg:mb-8 md:text-lg lg:text-xl">
@@ -38,8 +38,8 @@ function Hero() {
               friction to move the world forward.
             </p>
             <Link to="contact">
-              <button className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-[#000030] rounded-lg bg-white hover:bg-white hover:text-[#9CDA0C] hover:shadow-lg transition duration-300 ease-in-out focus:ring-4 focus:ring-primary-300">
-                Get In Touch
+              <button className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-[#000030] rounded-lg bg-white hover:bg-[#000033] hover:text-white hover:shadow-lg transition duration-300 ease-in-out focus:ring-4 focus:ring-primary-300">
+                Our Products
                 <svg
                   className="w-5 h-5 ml-2 -mr-1"
                   fill="currentColor"
