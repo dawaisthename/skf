@@ -113,11 +113,11 @@ const Footer = () => {
                 About
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/contact" className="hover:text-[#000033]">
                 Contact Us
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/product" className="hover:text-[#000033]">
                 Product

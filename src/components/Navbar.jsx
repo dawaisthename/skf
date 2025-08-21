@@ -113,7 +113,7 @@ const Navbar = () => {
             >
               Product
             </Link>
-            <Link
+            {/* <Link
               to="/contact"
               className={`font-semibold transition ${
                 isScrolled
@@ -122,7 +122,7 @@ const Navbar = () => {
               }`}
             >
               Contact
-            </Link>
+            </Link> */}
           </div>
         </div>
       </nav>
@@ -159,13 +159,13 @@ const Navbar = () => {
           >
             Product
           </Link>
-          <Link
+          {/* <Link
             to="/contact"
             onClick={closeMenu}
             className="text-gray-900 hover:text-blue-600 font-bold text-lg"
           >
             Contact
-          </Link>
+          </Link> */}
         </div>
       )}
     </>
