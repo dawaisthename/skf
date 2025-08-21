@@ -17,7 +17,7 @@ function Hero() {
         }}
       >
         {/* Dark overlay for readability */}
-        <div className="absolute inset-0 bg-[#000030] bg-opacity-70"></div>
+        <div className="absolute inset-0 bg-[#000032] bg-opacity-85"></div>
 
         {/* Hero content */}
         <div className="relative z-10 grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">

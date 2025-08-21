@@ -36,13 +36,13 @@ const Navbar = () => {
             {/* Desktop logo (switch on scroll) */}
             <img
               src={isScrolled ? companyLogo : whitecompanyLogo}
-              className="hidden md:block w-30 h-16 object-cover drop-shadow-md"
+              className="hidden md:block w-21 h-10 object-cover drop-shadow-md"
               alt="Company Logo"
             />
             {/* Mobile logo (always black) */}
             <img
               src={companyLogo}
-              className="md:hidden w-30 h-16 object-cover drop-shadow-md"
+              className="md:hidden w-21 h-10 object-cover drop-shadow-md"
               alt="Company Logo"
             />
           </Link>
