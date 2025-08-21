@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import companyLogo from "../assets/images/CompanyLogo.png"; // Black logo
-import whitecompanyLogo from "../assets/images/CompanyLogoWhite.png"; // White logo
+import companyLogo from "../assets/images/Logo/CompanyLogo.png"; // Black logo
+import whitecompanyLogo from "../assets/images/Logo/CompanyLogoWhite.png"; // White logo
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);

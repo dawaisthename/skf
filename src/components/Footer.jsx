@@ -4,7 +4,7 @@ import { IoIosSend } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { FaFacebook, FaTiktok, FaLinkedin } from "react-icons/fa6";
 import bg from "../assets/images/automate.jpg";
-import companyLogo from "../assets/images/CompanyLogo.png";
+import companyLogo from "../assets/images/Logo/CompanyLogo.png";
 
 const Footer = () => {
   const [from_email, setEmail] = useState("");

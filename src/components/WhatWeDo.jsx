@@ -1,7 +1,7 @@
 import React from "react";
-import product from "../assets/images/Artboard 5.jpg";
-import service from "../assets/images/Artboard 10.jpg";
-import industry from "../assets/images/Artboard 7.jpg";
+import product from "../assets/images/Artboard/Artboard 5.jpg";
+import service from "../assets/images/Artboard/Artboard 10.jpg";
+import industry from "../assets/images/Artboard/Artboard 7.jpg";
 import bg1 from "../assets/images/gear.jpg"; // big background image 1
 import bg2 from "../assets/images/automate.jpg"; // big background image 2
 

@@ -17,12 +17,16 @@ function ProductPage() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-[#000033] text-white py-12 px-6">
-        <div className="max-w-7xl mx-auto">
+      <div className="min-h-screen -mt-20 bg-[#000033] text-white py-12 px-6">
+        <section className="relative flex flex-col items-center justify-center text-center py-16 px-6 sm:px-8 lg:px-16">
           {/* Page Title */}
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-[#9CDA0C] text-center mb-10">
-            Bearings Collection
+          <h1 className="text-4xl sm:text-6xl font-extrabold text-white mb-6 drop-shadow-md">
+            Our Products
           </h1>
+          <p className="max-w-3xl text-lg sm:text-xl text-gray-300 mb-12">
+            Explore our wide range of high-precision bearings engineered for
+            performance, durability, and efficiency.
+          </p>
 
           {/* Bearings Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
@@ -60,7 +64,7 @@ function ProductPage() {
               </div>
             ))}
           </div>
-        </div>
+        </section>
       </div>
       <Footer />
     </>

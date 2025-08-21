@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import heroImage from "../assets/images/Artboard 10.jpg";
-import missionImage from "../assets/images/Artboard 3.jpg";
+import heroImage from "../assets/images/Artboard/Artboard 10.jpg";
+import missionImage from "../assets/images/Artboard/Artboard 3.jpg";
 import bearing from "../assets/images/bearing.png";
 
 function AboutusPage() {

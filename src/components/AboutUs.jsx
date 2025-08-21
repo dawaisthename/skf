@@ -1,7 +1,7 @@
 import React from "react";
-import art from "../assets/images/Artboard 9.jpg";
+import art from "../assets/images/Artboard/Artboard 9.jpg";
 import { Link } from "react-router-dom";
-import art3 from "../assets/images/Artboard 1.jpg";
+import art3 from "../assets/images/Artboard/Artboard 1.jpg";
 import bg from "../assets/images/automate.jpg";
 
 function AboutUs() {
@@ -44,7 +44,7 @@ function AboutUs() {
             </p>
             <div className="mt-8 flex justify-center items-center">
               <Link to="/about">
-                <button className="px-3 py-2 bg-[#000030] text-white font-light rounded-lg shadow-md hover:bg-white hover:text-[#9CDA0C] focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <button className="px-3 py-2 bg-[#000030] text-white font-light rounded-lg shadow-md hover:bg-white hover:text-[#000033] focus:outline-none focus:ring-2 focus:ring-blue-500">
                   Learn More
                 </button>
               </Link>

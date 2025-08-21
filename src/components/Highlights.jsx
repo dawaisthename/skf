@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import auto from "../assets/images/Artboard 8.jpg";
-import mining from "../assets/images/Artboard 6.jpg";
-import agriculture from "../assets/images/Artboard 4.jpg";
+import auto from "../assets/images/Artboard/Artboard 8.jpg";
+import mining from "../assets/images/Artboard/Artboard 6.jpg";
+import agriculture from "../assets/images/Artboard/Artboard 4.jpg";
 import bg2 from "../assets/images/gear.jpg";
 
 const industries = [

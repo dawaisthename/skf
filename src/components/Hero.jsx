@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import white_logo from "../assets/images/CompanyLogoWhite.png";
-import heroBg from "../assets/images/Artboard 5.jpg";
-import heroBg2 from "../assets/images/Artboard 4.jpg";
+import white_logo from "../assets/images/Logo/CompanyLogoWhite.png";
+import heroBg from "../assets/images/Artboard/Artboard 5.jpg";
+import heroBg2 from "../assets/images/Artboard/Artboard 4.jpg";
 function Hero() {
   return (
     <>
