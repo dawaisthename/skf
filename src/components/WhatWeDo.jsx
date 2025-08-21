@@ -23,9 +23,8 @@ const WhatWeDo = () => {
           What We Do
         </h2>
         <p className="text-lg sm:text-xl mb-12 max-w-3xl mx-auto">
-          We provide high-quality feed products, innovative services, and
-          industry support to empower sustainable livestock farming and enhance
-          productivity.
+          SKF Nubeyil is a leading global supplier of products, services, and
+          solutions.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16">

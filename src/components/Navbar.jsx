@@ -102,16 +102,7 @@ const Navbar = () => {
             >
               About
             </Link>
-            <Link
-              to="/blog"
-              className={`font-semibold transition ${
-                isScrolled
-                  ? "text-gray-800 hover:text-blue-600"
-                  : "text-white hover:text-blue-300"
-              }`}
-            >
-              Blog
-            </Link>
+
             <Link
               to="/product"
               className={`font-semibold transition ${

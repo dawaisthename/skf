@@ -70,7 +70,7 @@ const Footer = () => {
           </Link>
 
           <p className="text-sm mb-4 leading-6">
-            Copyright © 2024 Mati Feeds Ltd. <br />
+            Copyright © 2025 SKF nubeyil Ltd. <br />
             All rights reserved
           </p>
           <div className="flex space-x-4">

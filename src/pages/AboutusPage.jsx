@@ -57,8 +57,10 @@ function AboutusPage() {
             <p className="text-xl sm:text-2xl text-gray-200">
               With a history lasting back to 1907, SKF Nubeyil has grown into a
               large multinational corporation with a global presence and a wide
-              range of applications across various industries.
+              range of applications across various industries. The registered
+              brand is SKF nubeyil and also registered in European Union.
             </p>
+            <p className="text-xl sm:text-2xl text-gray-200"></p>
           </div>
 
           <div className="max-w-screen-xl mx-auto lg:grid lg:grid-cols-2 lg:gap-16 items-center">
@@ -74,15 +76,17 @@ function AboutusPage() {
                 Our Mission
               </h2>
               <p className="mb-4 text-lg">
+                As a member of the Europe Association of Automobile
+                Manufacturers,a memeber of Italy,France,Austria and Germany
+                bearing industry Association, a national high-tech enterprise
+                and a specialized refined and new enterprise in turin city we
+                are dedicated to setting the highest industry standards.
+              </p>
+              <p className="mb-4 text-lg">
                 Our core mission is to deliver high-quality, high-precision
                 bearings and related solutions that reduce energy waste by
                 combating friction. We are a company committed to meticulous
                 production, from raw material to final assembly.
-              </p>
-              <p className="mb-4 text-lg">
-                As a member of the Europe Association of Automobile
-                Manufacturers and a national high-tech enterprise, we are
-                dedicated to setting the highest industry standards.
               </p>
             </div>
           </div>
@@ -182,16 +186,18 @@ function AboutusPage() {
               <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">
                 Our Process
               </h2>
-              <p className="mb-4 text-lg">
+              {/* <p className="mb-4 text-lg">
                 SKF Nubeyil is a leading global supplier of products, services,
                 and solutions, with rolling bearings, seals, mechatronics, and
                 lubrication systems.
-              </p>
+              </p> */}
               <p className="mb-4 text-lg">
                 Our production process is meticulously controlled at every step,
-                from selecting the finest raw materials to the final product. We
-                ensure the highest level of quality through a rigorous process
-                of self-inspection, follow-up inspection, and full inspection.
+                from selecting the finest raw materials turning to heat
+                treatment,from grinding to assembly,from cleaning,oiling to
+                packing.We ensure the highest level of quality through a
+                rigorous process of self-inspection, follow-up inspection, and
+                full inspection.
               </p>
               <p className="mb-4 text-lg">
                 This commitment to excellence ensures that all our products
